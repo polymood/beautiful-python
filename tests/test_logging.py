@@ -6,7 +6,7 @@ import logging
 # Add the src directory to the sys.path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
-from src.logging_example import setup_logging, TaskProcessor
+from logging_example import setup_logging, TaskProcessor
 
 class TestLoggingExample(unittest.TestCase):
 

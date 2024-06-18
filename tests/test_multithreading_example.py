@@ -6,7 +6,7 @@ import logging
 # Add the src directory to the sys.path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
-from src.multithreading_example import Task, run_tasks_sequential, run_tasks_concurrent, run_tasks_async, setup_logging
+from multithreading_example import Task, run_tasks_sequential, run_tasks_concurrent, run_tasks_async, setup_logging
 
 class TestMultithreadingExample(unittest.TestCase):
 
